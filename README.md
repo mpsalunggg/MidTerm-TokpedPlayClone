@@ -667,3 +667,8 @@ The private routes for creating, updating, and deleting resources require authen
     ```
     npm run start
     ```
+- And the last
+    ```
+    Server Listening On Port <port>
+    Database Connected
+    ```

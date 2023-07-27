@@ -140,9 +140,9 @@ The private routes for creating, updating, and deleting resources require authen
         ```
 - **POST /login**
     - URL Params
-        none
+    ``none``
     - Headers
-        none
+    ``none``
     - Body JSON
         ```
         {
@@ -634,7 +634,7 @@ The private routes for creating, updating, and deleting resources require authen
 **Prerequisites**
 - Download Node.js from the official website: [Node](https://nodejs.org/)
 - Download VSCode from the official website: [VSCode](https://code.visualstudio.com/)
-- Download Mongodb Compass or Mongodb Shell: [Compass](https://www.mongodb.com/try/download/compass)[Shell](https://www.mongodb.com/try/download/shell)
+- Download Mongodb Compass or Mongodb Shell: [Compass](https://www.mongodb.com/try/download/compass) [Shell](https://www.mongodb.com/try/download/shell)
 
 **Steps**
 - Clone this repo

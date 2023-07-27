@@ -15,13 +15,13 @@ This project is a cloning project of the backend of the [Tokopedia Play](https:/
 - [API Requests and Responses](#api-requests-and-responses)
 - [How to Run Locally](#how-to-run-locally)
 
-## Database Structure {#database-structure}
+## Database Structure 
 
 Here is an overview of the database structure based on the Tokopedia Play project.
 
 ![Structure Database](public/Skema_Database.png)
 
-## API Structure {#api-structure}
+## API Structure 
 
 ### Auth User
 - Register User
@@ -97,7 +97,7 @@ Here is an overview of the database structure based on the Tokopedia Play projec
 
 The private routes for creating, updating, and deleting resources require authentication. Make sure to include a valid JSON Web Token (JWT) in the Authorization header of your requests.
 
-## API Requests and Responses {#api-requests-and-responses}
+## API Requests and Responses
 
 ### Auth User
 
@@ -630,7 +630,7 @@ The private routes for creating, updating, and deleting resources require authen
         }
         ```
 
-## How to run locally {#how-to-run-locally}
+## How to run locally
 **Prerequisites**
 - Download Node.js from the official website: [Node](https://nodejs.org/)
 - Download VSCode from the official website: [VSCode](https://code.visualstudio.com/)

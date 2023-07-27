@@ -639,5 +639,31 @@ The private routes for creating, updating, and deleting resources require authen
 **Steps**
 - Clone this repo
     ```
-    git clone 
+    git clone https://github.com/mpsalunggg/MidTerm-TokpedPlayClone.git
+    ```
+- Change into the project directory
+    ```
+    cd MidTerm-TokpedPlayClone
+    ```
+- Install project dependencies using npm
+    ```
+    npm install
+    ```
+- Configure MongoDB with mongoshell
+    - Make sure MongoDB is installed and running on your system.
+        ```
+        mongosh --host localhost --port <port>
+        ```
+    - Create a new database and note down its connection URL (Mongodb Compass).
+- Set up environment variables
+    - Create a new file named .env in the root directory of the project.
+    - Add the following environment variables to the .env file:
+        ```
+        DB_MONGO=<your_mongodb_url>
+        PORT=<your_running_port>
+        SECRET_KEY=<your_secretkey>
+        ```
+- Run the application
+    ```
+    npm run start
     ```

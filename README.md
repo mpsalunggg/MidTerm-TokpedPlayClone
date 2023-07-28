@@ -451,7 +451,7 @@ The private routes for creating, updating, and deleting resources require authen
         ```
 - **PUT /product/{id_product}** 
     - URL Params
-    ``id_thumb``
+    ``id_product``
     - Headers
     ``Content-Type: application/json``
     ``Authorization: Bearer <Token>``
